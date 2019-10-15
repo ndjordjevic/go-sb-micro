@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/micro/go-micro"
+	hello "github.com/ndjordjevic/go-sb-micro/api/rpc/proto"
 )
-import hello "github.com/ndjordjevic/go-sb-micro/api/rpc/proto"
 
 func main() {
 	// create a new service
